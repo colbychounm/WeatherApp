@@ -1,0 +1,38 @@
+h1 {
+    color: red;
+}
+
+.weather-body {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.search-top {
+    margin-bottom: 50px;
+}
+
+.input {
+    outline: none;
+}
+
+.loading {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    animation: spinner linear 1s infinite;
+}
+
+@keyframes spinner {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+button {
+    cursor: pointer;
+}
